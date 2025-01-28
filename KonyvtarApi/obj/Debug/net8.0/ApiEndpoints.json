@@ -6,10 +6,21 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "KonyvtarApi.Models.Book",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[KonyvtarApi.Models.Book, KonyvtarApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -54,7 +65,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "szero",
+        "Name": "szerzo",
         "Type": "System.String",
         "IsRequired": false
       }
