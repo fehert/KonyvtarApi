@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KonyvtarApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c28084d57adf4f1ae27d86509e07b2cf7473302")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aff258c7b61e8725f03f7ea71fa0813ee88b6444")]
 [assembly: System.Reflection.AssemblyProductAttribute("KonyvtarApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KonyvtarApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

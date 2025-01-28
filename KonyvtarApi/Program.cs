@@ -1,4 +1,6 @@
 
+using Microsoft.EntityFrameworkCore;
+
 namespace KonyvtarApi
 {
     public class Program
@@ -7,6 +9,9 @@ namespace KonyvtarApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddDbContext<LibraryContext>(options =>
+options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
             // Add services to the container.
 
             builder.Services.AddControllers();
